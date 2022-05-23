@@ -29,6 +29,6 @@ Refine the pre-processed slices:  python ./post/test.py
 python ./re/RPS.py
 
 # Please contact us
-D20208157@hust.edu.cn
+chaolianying@hust.edu.cn
 
 
