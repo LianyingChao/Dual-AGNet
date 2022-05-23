@@ -13,22 +13,28 @@ Post-model: https://drive.google.com/file/d/13TPRt9mopHNIevyjRmW_pRGwGoGsTpBZ/vi
 
 2. Dual-AGNet based low-dose CBCT reconstruction
 Beer-lambert law:
-a. python ./re/python bl.py 
+
+python ./re/python bl.py 
 
 Prepare the input of Pre-AGNet:
-b. python ./re/python cut2pre.py
+
+python ./re/python cut2pre.py
 
 Denoise the low-dose projections:
-c. python ./pre/test.py
+
+python ./pre/test.py
 
 Reconstruct the CBCT images:
-d. python ./re/reconstruction.py
+
+python ./re/reconstruction.py
 
 Prepare the input of Post-AGNet:
-e. python ./re/prepost.py
+
+python ./re/prepost.py
 
 Refine the pre-processed slices:
-f. python ./post/test.py
+
+python ./post/test.py
 
 
 3. Quantitative evaluation
