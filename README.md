@@ -1,4 +1,4 @@
-# Dual-AGNet for low-dose CBCT reconstruction dgfsdf
+# Dual-AGNet for low-dose CBCT reconstruction
 # Tensorflow = 1.15.2, python = 3.6
 Dual-domain attention-guided low-dose CBCT reconstruction
 
