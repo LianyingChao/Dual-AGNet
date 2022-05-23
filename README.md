@@ -2,7 +2,7 @@
 
 Tensorflow = 1.15    python = 3.6
 
-1. Load noisy Data and trained models
+# Load noisy Data and trained models
 
 Walnuts #19-21: https://zenodo.org/record/3763412 (such as walnut #19, to ./Dual-AGNet/re/walnut_19/noisy/)
 
@@ -11,7 +11,7 @@ Pre-model:  https://drive.google.com/file/d/1BQQMyo-YfV5nL3acAZFs34bFqMl4ZIGJ/vi
 Post-model: https://drive.google.com/file/d/13TPRt9mopHNIevyjRmW_pRGwGoGsTpBZ/view?usp=sharing (to ./Dual-AGNet/post/Checkpoints/)
 
 
-2. Dual-AGNet based low-dose CBCT reconstruction
+# Dual-AGNet based low-dose CBCT reconstruction
 Beer-lambert law:
 
 python ./re/python bl.py 
@@ -37,7 +37,7 @@ Refine the pre-processed slices:
 python ./post/test.py
 
 
-3. Quantitative evaluation
+# Quantitative evaluation
 python ./re/RPS.py
 
 Any questions about the code, please contact D20208157@hust.edu.cn
