@@ -17,7 +17,7 @@ to "./Dual-AGNet/post/Checkpoints/"
 # Dual-AGNet based low-dose CBCT reconstruction
 Beer-lambert law:  python ./re/bl.py 
 
-Prepare the input of Pre-AGNet:  python ./re/pcut2pre.py
+Prepare the input of Pre-AGNet:  python ./re/cut2pre.py
 
 Denoise the low-dose projections:  python ./pre/test.py
 
