@@ -28,9 +28,6 @@ Prepare the input of Post-AGNet:  python ./re/prepost.py
 Refine the pre-processed slices:  python ./post/test.py
 
 
-# Quantitative evaluation
-python ./re/RPS.py
-
 # Please contact us
 chaolianying@hust.edu.cn
 
